@@ -48,6 +48,25 @@ source = ["Cython (>=0.29.7)"]
 
 [[package]]
 category = "main"
+description = "Read dotenv file"
+name = "py-dotenv"
+optional = false
+python-versions = "*"
+version = "0.1"
+
+[[package]]
+category = "main"
+description = "Add .env support to your django/flask apps in development and deployments"
+name = "python-dotenv"
+optional = false
+python-versions = "*"
+version = "0.14.0"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
+category = "main"
 description = "A modern CSS selector implementation for Beautiful Soup."
 name = "soupsieve"
 optional = false
@@ -55,7 +74,7 @@ python-versions = "*"
 version = "1.9.6"
 
 [metadata]
-content-hash = "b0d63c059a8ebd51d9ace8f0b1014b7b7943522f5654f33551042142a3d0f6d0"
+content-hash = "94c6ff4857b4ea0644073a5a0f9500a6b87f3e620b52399d597914eb66b10e08"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -103,6 +122,13 @@ lxml = [
     {file = "lxml-4.5.2-cp38-cp38-win32.whl", hash = "sha256:107781b213cf7201ec3806555657ccda67b1fccc4261fb889ef7fc56976db81f"},
     {file = "lxml-4.5.2-cp38-cp38-win_amd64.whl", hash = "sha256:f161af26f596131b63b236372e4ce40f3167c1b5b5d459b29d2514bd8c9dc9ee"},
     {file = "lxml-4.5.2.tar.gz", hash = "sha256:cdc13a1682b2a6241080745b1953719e7fe0850b40a5c71ca574f090a1391df6"},
+]
+py-dotenv = [
+    {file = "py_dotenv-0.1-py3-none-any.whl", hash = "sha256:548c588c3b7e2ee2142b0ac97d2912d223ff38e874302426bbb6c21353817cc2"},
+]
+python-dotenv = [
+    {file = "python-dotenv-0.14.0.tar.gz", hash = "sha256:8c10c99a1b25d9a68058a1ad6f90381a62ba68230ca93966882a4dbc3bc9c33d"},
+    {file = "python_dotenv-0.14.0-py2.py3-none-any.whl", hash = "sha256:c10863aee750ad720f4f43436565e4c1698798d763b63234fb5021b6c616e423"},
 ]
 soupsieve = [
     {file = "soupsieve-1.9.6-py2.py3-none-any.whl", hash = "sha256:feb1e937fa26a69e08436aad4a9037cd7e1d4c7212909502ba30701247ff8abd"},
